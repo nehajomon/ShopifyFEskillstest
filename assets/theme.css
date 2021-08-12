@@ -6997,13 +6997,16 @@ hr {
 .store-availability-list__phone {
   margin-bottom: 0; }
 
-.product-form_cart-submit:hover{
-  
-  background-color:#000 !important;
-  
-}
-.btn--add-to-cart{
-  background:gold;
-  border:none;
-  color:white;
-}
+  .product-form__cart-submit:hover {
+   
+    background-color: red;
+    border: 2px solid green;
+    color: white;
+    
+  }
+  .product-form__cart-submit:hover{
+    background-color: blue !important;
+    border:2px solid orange !important;
+    color: green !important;
+    
+  }
